@@ -27,10 +27,16 @@ git clone https://github.com/Priyank-Adhav/Matrix-Morpheus-GRUB-Theme
 cd Matrix-Morpheus-GRUB-Theme
 ```
 
-3. Execute the installation script as admin
+3. Make the installer executable
+
+```shell
+chmod +x install.sh
+```
+
+4. Execute the installation script as admin
 
 ```shell
 sudo ./install.sh
 ```
 
-3. Reboot to test your new theme
+5. Reboot to test your new theme
