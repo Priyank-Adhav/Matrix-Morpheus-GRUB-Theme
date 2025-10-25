@@ -12,8 +12,9 @@ GRUB_CFG="/etc/default/grub"
 GRUB_FILE="/boot/grub/grub.cfg"
 
 echo ""
+echo "==========================="
 echo "Matrix GRUB Theme Installer"
-echo "=============================="
+echo "==========================="
 echo ""
 
 # Check for root privileges
