@@ -1,8 +1,8 @@
 #!/bin/bash
-# ============================================
+# ===============================================================
 # Matrix Morpheus GRUB Theme Installer
 # Repository: https://github.com/Priyank-Adhav/Matrix-GRUB-Theme
-# ============================================
+# ===============================================================
 
 set -e
 
@@ -16,25 +16,25 @@ echo "Matrix GRUB Theme Installer"
 echo "=============================="
 echo ""
 
-# --- Check for root privileges ---
+# Check for root privileges
 if [ "$EUID" -ne 0 ]; then
     echo "Please run this script as root (use sudo)."
     exit 1
 fi
 
-# --- Ensure theme directory exists ---
+# Ensure theme directory exists 
 echo "Checking for theme directory..."
 mkdir -p "$THEME_DIR"
 
-# --- Copy theme files ---
+# Copy theme files 
 echo "Installing theme..."
 cp -r "$THEME_NAME" "$THEME_DIR/" || {
     echo "Failed to copy theme files."
     exit 1
 }
 
-# --- Configure GRUB to use the new theme ---
-echo "🛠  Updating GRUB configuration..."
+# Configure GRUB to use the new theme 
+echo "Updating GRUB configuration..."
 if grep -q '^GRUB_THEME=' "$GRUB_CFG"; then
     sed -i "s|^GRUB_THEME=.*|GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"|" "$GRUB_CFG"
 else
@@ -42,8 +42,8 @@ else
     echo "GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"" >> "$GRUB_CFG"
 fi
 
-# --- Regenerate GRUB ---
-echo "⚙️  Rebuilding GRUB configuration..."
+# Regenerate GRUB
+echo "Rebuilding GRUB configuration..."
 if command -v grub-mkconfig >/dev/null 2>&1; then
     grub-mkconfig -o "$GRUB_FILE" >/dev/null
     echo "GRUB configuration updated successfully."
