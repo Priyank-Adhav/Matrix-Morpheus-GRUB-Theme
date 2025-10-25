@@ -9,8 +9,8 @@ title-text: ""
 terminal-font: "font.pf2"
 terminal-left: "5%"
 terminal-top: "80%"
-terminal-width: "90%"
-terminal-height: "15%"
+terminal-width: "100%"
+terminal-height: "100%"
 
 + boot_menu {
     left = 0%
@@ -21,13 +21,11 @@ terminal-height: "15%"
     item_color = "#00AA00"
     selected_item_color = "#FFFFFF"
     selected_item_font = "font.pf2"
-    icon_width = 800
-    icon_height = 590
-    item_height = 600
+    icon_width = 1920
+    icon_height = 1080
+    item_height = 1080
     item_width = 100
     item_padding = 0
     item_icon_space = 0
     item_spacing = 0
-    selected_item_pixmap_style = "selection_*.png"
 }
-
