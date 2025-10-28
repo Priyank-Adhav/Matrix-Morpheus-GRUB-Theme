@@ -12,7 +12,7 @@ Also, while the icons are **arranged horizontally** on screen,
 you still navigate using the **Up** and **Down arrow keys** as in a normal GRUB menu.
 
 ---
-![Matrix Morpheus GRUB Theme preview showing Arch and Windows boot icons](preview.GIF)
+![Matrix Morpheus GRUB Theme preview showing Arch and Windows boot icons](preview.gif)
 ## Installation
 
 1. Clone the repo
