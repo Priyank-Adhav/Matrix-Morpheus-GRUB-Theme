@@ -1,54 +1,62 @@
-# Matrix Morpheus GRUB Theme
+# Matrix Morpheus GRUB Theme (Ubuntu Version)
 **Red Pill vs Blue Pill**
 
-A minimalist Matrix-inspired GRUB theme featuring full-screen dynamic backgrounds that change between Linux and Windows.
+Tema minimalista inspirado en Matrix para GRUB con fondos dinámicos a pantalla completa que cambian entre Linux y Windows.
+
+Fork modificado del [tema original de Priyank-Adhav](https://github.com/Priyank-Adhav/Matrix-Morpheus-GRUB-Theme), adaptado para **Ubuntu + Windows** dual-boot.
 
 ---
 
-**Note:**  
-Currently, the theme only includes the **Arch Linux** and **Windows** icons.  
- 
-Also, while the icons are **arranged horizontally** on screen,  
-you still navigate using the **Up** and **Down arrow keys** as in a normal GRUB menu.
+**Características de esta versión:**
+- Detección automática de distribución Linux
+- Configuración automática de resolución 1920x1080
+- Simplificación del menú GRUB (solo Ubuntu y Windows)
+- Deshabilitación automática de entradas extra (memtest, recovery, etc.)
+
+Los iconos están ordenados horizontalmente en pantalla,  
+pero se navega usando las teclas **Arriba** y **Abajo** como en un menú GRUB normal.
 
 ---
-![Matrix Morpheus GRUB Theme preview showing Arch and Windows boot icons](preview.gif)
-## Installation
 
-1. Clone the repo
+![Matrix Morpheus GRUB Theme preview](preview.gif)
 
-```shell
-git clone https://github.com/Priyank-Adhav/Matrix-Morpheus-GRUB-Theme
-```
+## Instalación
 
-2. Go into the folder 
+1. Clona el repositorio
 
 ```shell
-cd Matrix-Morpheus-GRUB-Theme
+git clone https://github.com/rflvz/Matrix-Morpheus-GRUB-Theme-ubuntu-version
 ```
 
-3. Make the installer executable
+2. Entra en la carpeta
+
+```shell
+cd Matrix-Morpheus-GRUB-Theme-ubuntu-version
+```
+
+3. Haz el instalador ejecutable
 
 ```shell
 chmod +x install.sh
 ```
 
-4. Execute the installation script as admin
+4. Ejecuta el script de instalación como administrador
 
 ```shell
 sudo ./install.sh
 ```
 
-5. Reboot to test your new theme
+5. Reinicia para ver tu nuevo tema
 
 ---
-Optional: Simplify Your GRUB Menu
 
-I designed this theme for a two entry layout and haven't really thought about how to visually handle the additional entries. 
+## Notas
 
-If your GRUB menu currently has extra entries such as:
+- El script crea automáticamente los iconos necesarios para Ubuntu (`ubuntu.png`, `gnu-linux.png`, `linux.png`) a partir de la imagen base.
+- Windows usa `windows.png` que ya viene incluido.
+- El script deshabilita automáticamente las entradas extra de GRUB para dejar solo Ubuntu y Windows.
+- Si tienes varios kernels instalados, considera eliminar los antiguos con `sudo apt autoremove`.
 
-- “Advanced options for Arch Linux”
-- “UEFI Firmware Settings”
+## Créditos
 
-I would recommend you remove the extra menu entries from the grub config if you don't use them.
+Tema original por [Priyank-Adhav](https://github.com/Priyank-Adhav/Matrix-Morpheus-GRUB-Theme)
