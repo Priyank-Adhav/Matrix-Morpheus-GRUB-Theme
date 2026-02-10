@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Priyank-Adhav&project=Matrix-Morpheus-GRUB-Theme&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Matrix Morpheus GRUB Theme
 **Red Pill vs Blue Pill**
 
